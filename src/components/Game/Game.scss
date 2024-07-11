@@ -1,0 +1,121 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  &__header {
+    width: 100%;
+  }
+  &__nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+  }
+  &__exit {
+    border: solid 1px white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 1rem;
+    &:hover {
+      background-color: greenyellow;
+      transition: ease-in-out 1s;
+    }
+  }
+  &__title {
+    font-size: 2rem;
+    font-weight: bold;
+    border: solid 1px yellowgreen;
+    border-radius: 20px;
+    padding: 5px 10px;
+  }
+}
+// -------------
+
+.wrapper-game {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+.playTheGame {
+  width: 75%;
+  background: url("../../assets/pictures/quiz.jpg") center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  &__top {
+    height: 50%;
+    color: white;
+    width: 5rem;
+    height: 5rem;
+    border: solid 3px white;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+
+  &__timer {
+    font-size: 2rem;
+  }
+  &__bottom {
+    color: white;
+    height: 50%;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+  }
+}
+
+.pyramids {
+  width: 25%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+
+  &__title {
+    font-size: 2rem;
+    font-weight: bold;
+    border: solid 2px yellowgreen;
+    border-radius: 20px;
+    padding: 5px 10px;
+  }
+
+  &__moneyListItem {
+    list-style-type: none;
+    margin: 1rem;
+  }
+  &__moneyListItemNumber {
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: solid 1px yellowgreen;
+    border-radius: 20px;
+    padding: 5px 10px;
+  }
+}
+
+.active {
+  background-color: yellowgreen;
+  transition: ease-in-out 1s;
+}
+
+.endText {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: white;
+  font-size: 2rem;
+}

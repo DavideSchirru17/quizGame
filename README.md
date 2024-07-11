@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+### Quiz Game Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Description
 
-## Available Scripts
+The Quiz Game Application is an engaging web-based quiz game developed using React. It allows users to test their knowledge by answering a series of multiple-choice questions. The game features a user-friendly interface, a scoring system, and integrated sound effects to enhance the user experience.
 
-In the project directory, you can run:
+### Features
 
-### `npm start`
+User Authentication: Start the game by entering your name.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Multiple Choice Questions: Each question presents multiple answers to choose from.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Timer: A countdown timer for each question adds to the challenge.
 
-### `npm test`
+Scoring System: Track your earnings with a dynamic money pyramid.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Sound Effects: Enjoy sound cues for correct, incorrect answers, and game start.
 
-### `npm run build`
+Responsive Design: Optimized for both desktop and mobile devices.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
+Follow these steps to set up and run the application locally:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+git clone https://github.com/your-username/quiz-game-app.git
+cd quiz-game-app
 
-### `npm run eject`
+### Install dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Start the development server:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Install sass 
 
-## Learn More
+### Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Start the Game: Enter your name on the start screen and click "Start".
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Answer Questions: Choose the correct answer for each question within the given time limit.
 
-### Code Splitting
+Track Earnings: Watch your earnings grow with each correct answer.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+End of Game: The game ends when a wrong answer is selected or the timer runs out. Your final score is displayed.
 
-### Analyzing the Bundle Size
+### Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+React: For building the user interface.
 
-### Making a Progressive Web App
+React Router: For managing navigation between pages.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+useSound: For integrating sound effects.
 
-### Advanced Configuration
+SCSS: For styling the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Contributions
 
-### Deployment
+Contributions are welcome! Follow these steps to contribute:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Thanks for this exercise has been really interesting, probably in 2 - 3 days I could have finished all the questions you asked

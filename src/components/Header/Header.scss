@@ -1,0 +1,101 @@
+@use "../../styles/mixins" as *;
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navigation-header {
+  display: flex;
+  justify-content: space-between;
+  justify-content: flex-end;
+  width: 60%;
+  border-radius: 20px;
+  &.active .navigation-header__nav-menu {
+    display: flex;
+  }
+
+  &__nav-menu {
+    display: none;
+    @include tablet {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      list-style-type: none;
+    }
+  }
+}
+
+.navigation-header__nav-menu.show {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0;
+  background-color: #333;
+  list-style-type: none;
+  width: 50vw;
+  height: 90vh;
+  z-index: 100;
+  top: 11rem;
+  left: 7rem;
+  font-size: 2rem;
+  border: solid 1px greenyellow;
+
+  @include tablet {
+    flex-direction: row;
+  }
+}
+
+.anchor {
+  color: white;
+  padding: 1rem;
+  text-decoration: none;
+  border-radius: 20px;
+  &:hover {
+    color: greenyellow;
+    border: solid 1px yellowgreen;
+  }
+}
+.logo {
+  width: 20%;
+}
+.main-title {
+  font-size: 2rem;
+  padding: 1rem;
+}
+.bar {
+  display: block;
+  width: 30px;
+  height: 5px;
+  margin: 3px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+.hamburger {
+  display: block;
+  cursor: pointer;
+
+  @include tablet {
+    display: none;
+  }
+}
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}

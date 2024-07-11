@@ -1,0 +1,9 @@
+canvas {
+  height: 100vh !important;
+}
+.quiz {
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
