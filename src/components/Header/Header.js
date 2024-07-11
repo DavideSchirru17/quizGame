@@ -1,7 +1,7 @@
 import "./Header.scss";
 import { Link } from "react-router-dom";
 import logo from "../../assets/pictures/flags/sh.svg";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 function Header() {
   const [isActive, setIsActive] = useState(false);
@@ -12,7 +12,7 @@ function Header() {
     <header>
       <div className="logo">
         <Link to="/">
-          <img src={logo} />
+          <img src={logo} alt="logo" />
         </Link>
       </div>
       <h1 className="main-title"> Capital Quiz</h1>

@@ -61,4 +61,4 @@ Contributions
 Contributions are welcome! Follow these steps to contribute:
 
 
-### Thanks for this exercise has been really interesting, probably in 2 - 3 days I could have finished all the questions you asked# quizGame
+### Thanks for this exercise has been really interesting, probably in 2 - 3 days I could have finished all the questions you asked

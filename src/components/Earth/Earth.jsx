@@ -7,7 +7,6 @@ Source: https://sketchfab.com/3d-models/earth-63d902b12fd14868b4dc2f19dc21d7c2
 Title: Earth
 */
 
-import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export default function Model(props) {

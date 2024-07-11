@@ -1,5 +1,5 @@
-import Game from "../../components/Game/Game";
 import Footer from "../../components/Footer/Footer";
+import Game from "../../components/Game/Game";
 function QuizPage() {
   return (
     <div>
